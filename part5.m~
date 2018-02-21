@@ -1,0 +1,6 @@
+% part 5 orbit
+function part5(const)
+    fixpt1 = (1 + sqrt(1 - 4 * const))/2;
+    fixpt2 = (1 - sqrt(1 - 4 * const))/2; 
+    orb(0, const, fixpt1, fixpt2);
+end
